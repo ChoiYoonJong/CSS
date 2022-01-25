@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_css</title>
+    <link rel="stylesheet" href="css/11.css">
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Step 1: 로그인 정보</legend>
+        <div id="b1"> 아이디 <input id="a1" type="id" class="userId_input" name="userId" required ></div>
+        <div id="b1"> 비밀번호 <input id="a1" type="password" class="password_input" name="password" required ></div>
+        <div id="b1"> 비밀번호 확인 <input id="a1" type="password" class="password_input" name="password" required ></div>
+        <div id="b1"> 회원 등급 <input id="a1" type="text" class="user_rank" name="user_rank" value="준회원" required ></div>
+    </fieldset>
+    <fieldset>
+        <legend>Step 2: 개인 정보</legend>
+        <div id="b1"> 이름 <input id="a1" type="text" class="name" name="username" maxlength="5" placeholder="5자미만 공백없이" required ></div>
+        <div id="b1"> 메일 주소 <input id="a1" type="email" class="email_input" name="email" placeholder="abcd@domain.com" required ></div>
+        <div id="b1"> 연락처 <input id="a1" type="phone" class="phone_input" name="phone" required ></div>
+    </fieldset>
+    <fieldset>
+        <lenend>Step 3: 코딩 숙련도(상,중,하)</lenend>
+        <div id="b1"><input type="range" name="point" min="0" max="90" value="45" step="30"></div>
+    </fieldset>
+    <fieldset>
+        <input id="btn" type="submit" value="제출">
+    </fieldset>
+</body>
+</html>
