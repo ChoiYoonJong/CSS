@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: #1bbc9b;
+    width: 100px;
+    height: 100px;
+}
+
+.login-form{
+    width: 300px;
+    border: 0;
+    background-color: #EEEFF1;
+    padding: 20px;
+}
+
+.text-field{
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submit-btn{
+    color: #EEEFF1;
+    font-size: 14px;
+    background-color: #1bbc9b;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.links{
+    text-align: center;
+}
+
+.links a {
+    font-size: 12px;
+    color: #9b9b9b;
+}
