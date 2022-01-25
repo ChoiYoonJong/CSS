@@ -1,0 +1,81 @@
+body{
+    background-color: aqua;
+    background-color: rgb(153, 140, 155);
+    background-color: rgba(160, 150, 165,0.6);
+    background-color: rgb(270, 50%, 75%);
+    background-color: rgba(250, 60%, 80%,0.6);
+    background-color: transparent;
+    background-color: #ffaeff;
+}
+
+#div-bg{
+    width: 50%;
+    background-color: white;
+    opacity: .5;
+}
+
+.div-test{
+    background-color: yellow;
+    border: 5px dashed black; /*dashed 점선*/
+    
+    margin: 30px; /* 간격*/
+    padding: 20px; /*여백*/
+    width: 20%;
+    float: left; /* 왼쪽 정렬*/
+}
+
+#div1{
+    background-clip: border-box;
+}
+
+#div2{
+    background-clip: padding-box;
+}
+
+#div3{
+    background-clip: content-box;
+}
+
+#bg-img{
+    width: 70%;
+    height: 800px;
+    border: 1px solid black;
+
+    background-image: url("../sample/image/bgsample.PNG");
+
+    background-repeat: repeat; /*배경화면 전체까지 반복*/
+    background-repeat: repeat-x; /*가로 반복*/
+    background-repeat: repeat-y;/* 세로 반복*/
+    background-repeat: no-repeat;/* 반복 안함*/
+
+    background-size: auto; /*원래 사이즈*/
+    background-size: contain; /* 내용물 들어올만큼 사이즈*/
+    background-size: cover;
+    background-size: 150px 100px; /* 숫자 사이즈 만큼 지정*/
+    /*background-size: 80% 80%;*/ /*% 만큼 지정*/
+
+    background-position: left top;
+    background-position: right top;
+    background-position: center top;
+
+    background-position: left bottom;
+    background-position: right bottom;
+    background-position: center bottom;
+
+    background-position: left center;
+    background-position: right center;
+    background-position: center center;
+
+    background-position: 30px 50px;
+
+    background-attachment: scroll; /*마우스 움직임에 따라 위치*/
+    background-attachment: fixed; /*이미지 고정*/
+}
+
+#bg-all{
+    border: 1px solid black;
+    width: 100px;   
+    height: 100px;
+
+    background: url("../sample/image/iconsample.PNG") no-repeat top right;
+}

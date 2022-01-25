@@ -1,0 +1,45 @@
+#c-name{color:red;}
+#c-16{color:#ff0000;}
+#c-rgb{color : rgb(0, 0, 255);}
+#c-rgba{color : rgb(252, 0, 255,0.5);}
+#c-hsl{color: hsl(360,50%,50%);}
+#c-hsla{color: hsl(360,50%,50%,0.4);}
+
+
+#td1{text-decoration: none;}
+#td2{text-decoration: underline;} /*글 밑에 줄 그기*/
+#td3{text-decoration: line-through;} /*글 중간 줄 그기*/
+#td4{text-decoration: overline;} /*글 위에 줄 그기*/
+
+#tt1{text-transform: none;}
+#tt2{text-transform: capitalize;}/*영문자의 First 글자만 대문자로*/
+#tt3{text-transform: uppercase;}/*모든 영문자를 대문자로*/
+#tt4{text-transform: lowercase;}/*모든 영문자를 소문자로*/
+
+.shadow{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#ts1{
+    color: orangered;
+    text-shadow: 5px 5px orange; 
+}
+
+#ts2{
+    color: white;
+    text-shadow: 0px 0px 20px black;  /* 가로, 세로, 번짐정도*/
+}
+
+#ts3{
+    color: white;
+    text-shadow: 10px 10px 20px yellowgreen; 
+}
+
+#ts4{
+    text-shadow: 0px 0px 4px grey
+    ,0px -5px 4px yellow
+    ,0px -10px 6px orange
+    ,0px -15px 11px orangered
+    ,0px -20px 18px red
+}
