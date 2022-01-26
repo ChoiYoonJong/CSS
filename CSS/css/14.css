@@ -1,0 +1,107 @@
+.positioning{
+    border: 1px black solid;
+}
+
+.outer{
+    position: relative;
+}
+
+.first{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: static; /* ststic = default 요소를 문서 흐름에 맞게 배치 */
+}
+
+.second{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 50px;
+    left: 50px;/*가장가까운 상위요소(relative)를(부모) 기준으로 배치 */
+}
+
+.third{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed-area{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    background-color: red;
+}
+
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px; /*position 을 absolute or fixed 를 주면 display 속성이 block 요소로 바뀌고, 가로세로 크기 지정 가능해지고, display: vlock 를 명시할 필요가 없어짐*/
+}
+
+.vis-test{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.vis-test1{
+    background-color: red;
+}
+
+.vis-test2{
+    background-color: yellow;
+    /* visibility: hidden; */
+    display: none;
+}
+
+.vis-test3{
+    background-color: green;
+}
+
+
+.wrap{
+    position: relative;
+}
+
+.z-test{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.z-test1{
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1000;
+}
+
+.z-test2{
+    background-color: green;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 100;
+}
+
+.z-test3{
+    background-color: red;
+    z-index: 1;
+}
+
+.float-test{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    float: right;
+}
